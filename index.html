@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Peon Static Test</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>SPA Fallback Test</title>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <main class="card">
-    <h1>Static Site Test ✅</h1>
-    <p>If you see this page, Peon Static deploy is working.</p>
-    <p id="time"></p>
-  </main>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+  </nav>
 
-  <script src="app.js"></script>
+  <main id="app" class="card"></main>
+
+  <script src="/app.js"></script>
 </body>
 </html>
